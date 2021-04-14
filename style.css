@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+    line-height: 1.7;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    transition: 1s ease-in;
+}
+
+img {
+   width: 40rem;
+   margin: auto;
+   opacity: 0;
+   transition: 1s ease-in;
+
+}
+
+.container-one {
+    display: flex;
+    position: absolute;
+    bottom: 60rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.progress-bar {
+    width: 50rem;
+    height: 3rem;
+    background: rgb(63, 63, 63);
+    margin-bottom: 2rem;
+}
+
+.move-bar {
+    width: 0%;
+    height: 3rem;
+    background: rgb(6, 131, 47);
+    transition: .6s ease-in;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    padding: 1.6rem 3rem;
+    border-radius: .5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.btn1 {
+    cursor: pointer;
+    border: none;
+    padding: 1.6rem 3rem;
+    border-radius: .5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    margin-top: 5rem;
+    opacity: 0;
+}
